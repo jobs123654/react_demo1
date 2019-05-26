@@ -1,11 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
+import Nav from './module/Nav'
 import './App.css';
 import User from './module/User'
+import  InfoTable  from './module/InfoTable'
 function App() {
   return (
     <div className="App">
-      <User name={"hello"}></User>
+        <Nav></Nav>
+      <InfoTable></InfoTable>
     </div>
   );
 }
